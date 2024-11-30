@@ -1,7 +1,10 @@
-#include <iostream>
-#include <vector>
-#include <climits>
-using namespace std;
+/*
+ * @lc app=leetcode id=53 lang=cpp
+ *
+ * [53] Single Number
+ */
+
+// @lc code=start
 class Solution
 {
 public:
