@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+// moore's voting algorithm
 class Solution
 {
 public:
