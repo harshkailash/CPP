@@ -7,3 +7,7 @@ Next Pattern to do
 
 
 ![image](https://github.com/user-attachments/assets/f8c4f285-437a-436d-b05a-e3ae381eea5f)
+
+
+DRY run book allocation on this range
+![alt text](image.png)
