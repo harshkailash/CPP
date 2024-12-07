@@ -11,3 +11,7 @@ Next Pattern to do
 
 DRY run book allocation on this range
 ![alt text](image.png)
+
+![alt text](image-1.png)
+
+decreasing order for sorting algo
