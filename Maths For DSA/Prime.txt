@@ -1,0 +1,2 @@
+To check if a number "n" is prime or not we can check for its factors between 2 and sqrt(n)
+To print all prime numbers from 1 to N there is one theorem named "Sieve of Eratosthenes". Problem number 204 on leetcode
