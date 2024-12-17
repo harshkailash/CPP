@@ -15,3 +15,5 @@ DRY run book allocation on this range
 ![alt text](image-1.png)
 
 decreasing order for sorting algo
+
+slow and fast pointer approach - questsion 287 on leetcode
