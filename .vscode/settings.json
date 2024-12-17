@@ -10,6 +10,5 @@
         "xtree": "cpp",
         "xutility": "cpp",
         "xlocale": "cpp",
-        "locale": "cpp"
     }
 }

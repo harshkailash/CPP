@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int GCD(int &n, int &m)
+int GCD(int n, int m)
 {
     int gcd = 1;
     for (int i = 1; i <= min(n, m); i++)
@@ -22,7 +22,7 @@ int GCD(int &n, int &m)
 /* To make it more optimised
 gcd(a,b) = gcd(a%b,b) if a>b
            gcd(a,b%a) if b>a*/
-int Euclids(int &n, int &m)
+int Euclids(int n, int m)
 {
     int gcd = 1;
     while (n > 0 && m > 0)
@@ -38,15 +38,30 @@ int Euclids(int &n, int &m)
     return n;
 }
 
+/*LCM= lowest common multiple
+a*b = GCD(a,b) x LCM(a,b)
+
+LCM(a,b) = (axb) / GCD(a,b)
+
+*/
+
+int LCM(int n, int m)
+{
+    int gcd = GCD(n, m);
+    return ((n * m) / gcd);
+}
+
 int main()
 {
-    int a = 70;
-    int b = 25;
+    int a = 20;
+    int b = 28;
     int ans = GCD(a, b);
     cout << ans << endl;
 
     int ans1 = Euclids(a, b);
     cout << ans1 << endl;
+
+    cout << LCM(a, b) << endl;
 
     return 0;
 }
