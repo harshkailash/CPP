@@ -5,16 +5,16 @@
  */
 
 // @lc code=start
+import java.util.*;
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> arr = new HashMap<>();
-        int[] res=new int[2];
+        int[] res = new int[2];
 
-        for(int i=0;i<nums.length;i++)
-        {
-            if(arr.containsKey(target-nums[i]))
-            {
-                res[0] = arr.get(target-nums[i]);
+        for (int i = 0; i < nums.length; i++) {
+            if (arr.containsKey(target - nums[i])) {
+                res[0] = arr.get(target - nums[i]);
                 res[1] = i;
             }
             arr.put(nums[i], i);
@@ -23,4 +23,3 @@ class Solution {
     }
 }
 // @lc code=end
-
